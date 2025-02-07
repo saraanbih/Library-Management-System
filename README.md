@@ -71,7 +71,7 @@ CREATE TABLE Users (
    git clone https://github.com/saraanbih/library-management-system.git
    ```
 2. Open the project in Visual Studio.
-3. Configure the database connection string in `appsettings.json`.
+3. Configure the database connection string in `appsettings.json`
 4. Build and run the application:
    ```bash
    dotnet run
@@ -83,8 +83,8 @@ CREATE TABLE Users (
 
 | Role       | Permissions                                         |
 |------------|-----------------------------------------------------|
-| Librarian  | Manage books and users, borrow and return books.    |
-| Member     | Borrow and return books only.                       |
+| Librarian  | Manage books and users, borrow and return books     |
+| Member     | Borrow and return books only                        |
 
 ---
 
@@ -104,4 +104,5 @@ Contributions are welcome! Feel free to submit a pull request 💻
 ## 🧑‍💻 Author
 **Sara Nabih**  
 📧 [Email](nabihsara8@gmail.com)
+
 🐦 [Telegram](https://t.me/Sara_Nabih)
