@@ -1,46 +1,46 @@
-# 📚 Library Management System
+# Library Management System
 
-A feature-rich **Library Management System** built in C# to manage books, users, and library operations efficiently 🚀
-
----
-
-## ✨ Features
-
-### 📖 Book Management
-- ➕ Add new books with title, author, category, and availability details
-- 🖊️ Update book information easily
-- 🗑️ Delete books from the system
-- 🔍 Search books by title or author
-- 📋 List all available books
-- 📤 Borrow and 📥 return books with availability tracking
-
-### 👤 User Management
-- ➕ Add new users (restricted to librarians)
-- 🖊️ Update user details (restricted to librarians)
-- 🗑️ Remove users (restricted to librarians)
-- 🔍 Search users by card number
-- 📋 List all registered users
-
-### 🔒 Role-Based Access
-- 🛡️ **Librarian**: Full access to all features, including managing users and books
-- 📚 **Member**: Limited access for borrowing and returning books
+A feature-rich **Library Management System** built in C# to manage books, users, and library operations efficiently
 
 ---
 
-## 🛠️ Getting Started
+## Features
 
-### 📋 Prerequisites
-1. 💾 **SQL Server**: Ensure SQL Server is installed and running
-2. 💻 **.NET SDK**: Download and install the [.NET SDK](https://dotnet.microsoft.com/download)
+### Book Management
+- Add new books with title, author, category, and availability details
+- Update book information easily
+- Delete books from the system
+- Search books by title or author
+- List all available books
+- Borrow and return books with availability tracking
+
+### User Management
+- Add new users (restricted to librarians)
+- Update user details (restricted to librarians)
+- Remove users (restricted to librarians)
+- Search users by card number
+- List all registered users
+
+### Role-Based Access
+- **Librarian**: Full access to all features, including managing users and books
+- **Member**: Limited access for borrowing and returning books
 
 ---
 
-### 🗄️ Database Setup
+## Getting Started
+
+### Prerequisites
+1. **SQL Server**: Ensure SQL Server is installed and running
+2. **.NET SDK**: Download and install the [.NET SDK](https://dotnet.microsoft.com/download)
+
+---
+
+### Database Setup
 
 1. Create a database named `LibraryManagementSystem` in SQL Server.
 2. Use the following SQL scripts to set up the required tables:
 
-#### 📖 Books Table
+#### Books Table
 ```sql
 CREATE TABLE Books (
     BookID INT IDENTITY(1,1) PRIMARY KEY,
@@ -52,7 +52,7 @@ CREATE TABLE Books (
 );
 ```
 
-#### 👤 Users Table
+#### Users Table
 ```sql
 CREATE TABLE Users (
     UserID INT IDENTITY(1,1) PRIMARY KEY,
@@ -64,7 +64,7 @@ CREATE TABLE Users (
 
 ---
 
-## ⚙️ How to Run the Project
+## How to Run the Project
 
 1. Clone this repository:
    ```bash
@@ -79,7 +79,7 @@ CREATE TABLE Users (
 
 ---
 
-## 🛡️ Role Definitions
+## Role Definitions
 
 | Role       | Permissions                                         |
 |------------|-----------------------------------------------------|
@@ -88,21 +88,21 @@ CREATE TABLE Users (
 
 ---
 
-## 💡 Future Enhancements
-- 🧾 Add book borrowing history
-- 🌐 Implement a user-friendly GUI
-- 📊 Generate reports for borrowed and available books
-- 🔑 Add authentication for secure access
+## Future Enhancements
+- Add book borrowing history
+- Implement a user-friendly GUI
+- Generate reports for borrowed and available books
+- Add authentication for secure access
 
 ---
 
-## 🤝 Contributing
-Contributions are welcome! Feel free to submit a pull request 💻
+## Contributing
+Contributions are welcome! Feel free to submit a pull request
 
 ---
 
-## 🧑‍💻 Author
+## Author
 **Sara Nabih**  
-📧 [Email](nabihsara8@gmail.com)
+[Email](nabihsara8@gmail.com)
 
 🐦 [Telegram](https://t.me/Sara_Nabih)
