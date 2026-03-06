@@ -104,5 +104,4 @@ Contributions are welcome! Feel free to submit a pull request
 ## Author
 **Sara Nabih**  
 [Email](nabihsara8@gmail.com)
-
-🐦 [Telegram](https://t.me/Sara_Nabih)
+[Telegram](https://t.me/Sara_Nabih)
